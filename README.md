@@ -74,6 +74,6 @@ Para canalizar la salida del programa y generar el reporte correspondiente en `/
 Get-Content entrada.txt | .\taller.exe > salida.txt    
 ```
 
-## Autor
+## Autores
 
-* **Paul Rojas** - [*PaullRed*](https://github.com/PaullRed)
+* **Paul Rojas** - [*PaullRed*](https://github.com/PaullRed) , **Abraham Boscan** - [*Abboscan*](https://github.com/Abboscan)
