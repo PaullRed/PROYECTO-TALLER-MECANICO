@@ -63,7 +63,7 @@ El sistema soporta la evaluacion de casos de uso mediante redireccion de flujos 
 Para inyectar el conjunto de datos definido en `/entrada.txt`:
 
 ```powershell
-Get-Content /entrada.txt | .\taller.exe
+Get-Content entrada.txt | .\taller.exe
 ```
 
 ### Generacion de Archivos de Salida (Evidencia)
