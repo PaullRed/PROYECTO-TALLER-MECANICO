@@ -1,0 +1,146 @@
+
+========================================
+      SISTEMA DE GESTION DE TALLER
+      Taller: Autoservicio El Lago
+========================================
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+0. Salir
+Seleccione una opcion: 
+--- GESTION DE VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo por ID o placa
+3. Buscar vehiculos por propietario
+4. Actualizar vehiculo
+5. Eliminar vehiculo
+6. Listar todos los vehiculos
+0. Volver
+Seleccione una opcion: Placa: Marca: Modelo: Anio: Kilometraje: Nombre del propietario: Cedula del propietario: Telefono del propietario: Fecha de registro (YYYY-MM-DD): Desea guardar este registro? (S/N): Vehiculo registrado exitosamente con ID 1.
+
+--- GESTION DE VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo por ID o placa
+3. Buscar vehiculos por propietario
+4. Actualizar vehiculo
+5. Eliminar vehiculo
+6. Listar todos los vehiculos
+0. Volver
+Seleccione una opcion: 
+========================================
+      SISTEMA DE GESTION DE TALLER
+      Taller: Autoservicio El Lago
+========================================
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+0. Salir
+Seleccione una opcion: 
+--- GESTION DE MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar todos los mecanicos
+0. Volver
+Seleccione una opcion: Nombre completo: Cedula: Especialidad (MOTOR, FRENOS, ELECTRICIDAD, SUSPENSION, GENERAL): Fecha de ingreso (YYYY-MM-DD): Guardar mecanico? (S/N): Mecanico registrado con ID 1.
+
+--- GESTION DE MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar todos los mecanicos
+0. Volver
+Seleccione una opcion: 
+========================================
+      SISTEMA DE GESTION DE TALLER
+      Taller: Autoservicio El Lago
+========================================
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+0. Salir
+Seleccione una opcion: 
+--- INVENTARIO DE REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Registrar entrada de mercancia
+4. Cambiar precio de repuesto
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion: Codigo del repuesto: Nombre del repuesto: Marca: Precio unitario: Stock inicial: Stock minimo: Fecha de registro (YYYY-MM-DD): Guardar repuesto? (S/N): Repuesto registrado con ID 1.
+
+--- INVENTARIO DE REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Registrar entrada de mercancia
+4. Cambiar precio de repuesto
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion: 
+========================================
+      SISTEMA DE GESTION DE TALLER
+      Taller: Autoservicio El Lago
+========================================
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+0. Salir
+Seleccione una opcion: 
+--- ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion: ID del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Fecha actual (YYYY-MM-DD): Abrir orden? (S/N): Orden abierta exitosamente con ID #1.
+
+--- ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion: ID de la orden: ID del repuesto: Cantidad: Repuesto agregado a la orden exitosamente.
+
+--- ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion: ID de la orden a cerrar: Costo de mano de obra: Fecha de cierre (YYYY-MM-DD): Confirmar cierre de orden? (S/N): Orden cerrada exitosamente.
+
+--- ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion: 
+========================================
+      SISTEMA DE GESTION DE TALLER
+      Taller: Autoservicio El Lago
+========================================
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+0. Salir
+Seleccione una opcion: Seguro que desea salir? (Se perderan los datos en memoria) (S/N): 
+Saliendo del sistema...
