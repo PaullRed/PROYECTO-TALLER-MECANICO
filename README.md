@@ -60,18 +60,18 @@ El sistema soporta la evaluacion de casos de uso mediante redireccion de flujos 
 
 ### Pruebas en PowerShell
 
-Para inyectar el conjunto de datos definido en `pruebas/entrada.txt`:
+Para inyectar el conjunto de datos definido en `/entrada.txt`:
 
 ```powershell
-Get-Content pruebas/entrada.txt | .\taller.exe
+Get-Content /entrada.txt | .\taller.exe
 ```
 
 ### Generacion de Archivos de Salida (Evidencia)
 
-Para canalizar la salida del programa y generar el reporte correspondiente en `pruebas/salida.txt`:
+Para canalizar la salida del programa y generar el reporte correspondiente en `/salida.txt`:
 
 ```powershell
-Get-Content pruebas/entrada.txt | .\taller.exe > pruebas/salida.txt
+Get-Content entrada.txt | .\taller.exe > salida.txt    
 ```
 
 ## Autor
