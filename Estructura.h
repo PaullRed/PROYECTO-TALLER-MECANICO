@@ -1,11 +1,22 @@
 #ifndef ESTRUCTURAS_H
 #define ESTRUCTURAS_H
 
+#include <ctime>
+
+struct ArchivoHeader {
+    int cantidadRegistros;
+    int proximoID;
+    int registrosActivos;
+    int version;
+};
+
 struct Taller {
     char nombre[100];
     char rif[20];
     char direccion[200];
     char telefono[20];
+    time_t fechaCreacion;
+    time_t fechaUltimaModificacion;
 };
 
 struct Vehiculo {
@@ -18,7 +29,9 @@ struct Vehiculo {
     char nombrePropietario[100];
     char cedulaPropietario[20];
     char telefonoPropietario[20];
-    char fechaRegistro[11];
+    bool eliminado;
+    time_t fechaCreacion;
+    time_t fechaUltimaModificacion;
 };
 
 struct Mecanico {
@@ -27,6 +40,9 @@ struct Mecanico {
     char cedula[20];
     char especialidad[20];
     char fechaIngreso[11];
+    bool eliminado;
+    time_t fechaCreacion;
+    time_t fechaUltimaModificacion;
 };
 
 struct Repuesto {
@@ -37,7 +53,9 @@ struct Repuesto {
     float precio;
     int stock;
     int stockMinimo;
-    char fechaRegistro[11];
+    bool eliminado;
+    time_t fechaCreacion;
+    time_t fechaUltimaModificacion;
 };
 
 struct DetalleOrden {
@@ -56,29 +74,12 @@ struct OrdenServicio {
     char descripcionFalla[200];
     int kilometrajeIngreso;
     float manoObra;
-    DetalleOrden* detalles;
+    static const int MAX_DETALLES = 15;
+    DetalleOrden detalles[MAX_DETALLES];
     int numDetalles;
-    int capacidadDetalles;
-};
-
-struct SistemaTaller {
-    Taller taller;
-    Vehiculo* vehiculos;
-    Mecanico* mecanicos;
-    Repuesto* repuestos;
-    OrdenServicio* ordenes;
-    int numVehiculos;
-    int numMecanicos;
-    int numRepuestos;
-    int numOrdenes;
-    int capacidadVehiculos;
-    int capacidadMecanicos;
-    int capacidadRepuestos;
-    int capacidadOrdenes;
-    int siguienteIdVehiculo;
-    int siguienteIdMecanico;
-    int siguienteIdRepuesto;
-    int siguienteIdOrden;
+    bool eliminado;
+    time_t fechaCreacion;
+    time_t fechaUltimaModificacion;
 };
 
 #endif

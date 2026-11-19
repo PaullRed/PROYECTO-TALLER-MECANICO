@@ -2,10 +2,12 @@
 #define MECANICO_H
 
 #include "Estructura.h"
+#include <string>
 
-Mecanico* agregarMecanico(SistemaTaller* s, Mecanico datos);
-Mecanico* buscarMecanicoPorID(SistemaTaller* s, int id);
-Mecanico* buscarMecanicoPorCedula(SistemaTaller* s, const char* cedula);
-Mecanico** listarMecanicos(SistemaTaller* s, int* cantidad);
+bool registrarMecanico(const std::string& rutaArchivo, Mecanico datosMecanico, int& idAsignado);
+bool obtenerMecanicoPorID(const std::string& rutaArchivo, int id, Mecanico& mecanicoEncontrado);
+bool obtenerMecanicoPorCedula(const std::string& rutaArchivo, const std::string& cedula, Mecanico& mecanicoEncontrado);
+bool darDeBajaMecanicoLogico(const std::string& rutaArchivo, int id, const std::string& rutaOrdenes = "datos/ordenes.bin");
+bool esEspecialidadValidaMecanico(const char* esp);
 
 #endif
