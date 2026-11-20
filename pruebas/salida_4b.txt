@@ -1,0 +1,3 @@
+=== CASO DE USO 4 (PARTE B): VERIFICACION DE 15 LINEAS TRAS REINICIO ===
+- Al reiniciar el programa y consultar el detalle de la orden (opcion 4 -> 6):
+  * Se muestran intactas las 15 lineas de detalle con sus codigos, nombres, cantidades, precios historicos y total general.

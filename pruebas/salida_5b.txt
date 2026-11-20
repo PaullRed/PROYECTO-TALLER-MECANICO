@@ -1,0 +1,5 @@
+=== CASO DE USO 5 (PARTE B): VERIFICACION DE STOCK REVERTIDO EN DISCO ===
+- Al reiniciar el programa y consultar el Repuesto ID 1 (opcion 3 -> 2 -> 1 -> ID 1):
+  * El stock refleja las unidades devueltas tras la anulacion de la orden #1.
+- Al consultar la orden #1 (opcion 4 -> 6 -> ID 1):
+  * Su estado figura como ANULADA y conserva su historial de lineas.

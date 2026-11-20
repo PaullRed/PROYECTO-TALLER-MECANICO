@@ -1,0 +1,6 @@
+=== CASO DE USO 7 (PARTE B): DETECCION DE INTEGRIDAD ROTA ===
+- Tras restaurar unicamente datos/vehiculos.bin desde el respaldo (dejando la orden #11 apuntando al ID 9 inexistente):
+- Al ejecutar Mantenimiento -> Verificar integridad de archivos (opcion 6 -> 1):
+  ROTO: Orden #11 apunta al vehiculo ID 9 (no existe en vehiculos.bin)
+  Problemas encontrados : 1
+  Estado: SISTEMA CON ERRORES DE INTEGRIDAD

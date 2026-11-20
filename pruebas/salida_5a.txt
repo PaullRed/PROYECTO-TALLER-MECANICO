@@ -1,0 +1,5 @@
+=== CASO DE USO 5 (PARTE A): ANULACION DE ORDEN CERRADA ===
+- Se consulta el stock inicial de los repuestos de la orden #1 (ej. Repuesto ID 1).
+- Se consulta el detalle de la orden #1 (estado CERRADA) y se procede a anularla (opcion 4 -> 5 -> ID 1).
+- Mensaje: Orden anulada y stock revertido correctamente.
+- Se cierra el programa (opcion 0).

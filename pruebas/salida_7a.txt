@@ -1,0 +1,5 @@
+=== CASO DE USO 7 (PARTE A): RESPALDO Y CREACION DE REGISTRO POSTERIOR ===
+1. Se crea un respaldo en Mantenimiento -> Crear respaldo (opcion 6 -> 2), generando carpeta backup_YYYY-MM-DD_HH-MM/.
+2. Se registra el vehiculo nuevo placa NEW999 (ID 9).
+3. Se abre la orden #11 asociada al vehiculo ID 9.
+4. Se cierra el programa para reemplazar manualmente datos/vehiculos.bin por backup_.../vehiculos.bin.

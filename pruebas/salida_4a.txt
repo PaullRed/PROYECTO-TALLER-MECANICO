@@ -1,0 +1,5 @@
+=== CASO DE USO 4 (PARTE A): CARGA DE 15 LINEAS DE DETALLE ===
+- Se abre una orden y se agregan 15 repuestos distintos (IDs 1 al 15, requiere al menos 15 repuestos activos en inventario).
+- Cada insercion actualiza numDetalles hasta alcanzar MAX_DETALLES = 15.
+- Si se intentara agregar un 16to repuesto distinto, el sistema lo rechaza con mensaje de limite alcanzado.
+- Se cierra el programa (opcion 0).

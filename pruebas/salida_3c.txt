@@ -1,0 +1,5 @@
+=== CASO DE USO 3 (PARTE C): PERSISTENCIA FINAL DE ORDEN CERRADA ===
+- Al reiniciar y consultar la orden #1 (opcion 4 -> 6 -> ID 1):
+  * Estado: CERRADA | Apertura: 2026-11-15 | Cierre: 2026-11-16
+  * Conserva las 3 lineas activas (Repuesto ID 1 con cant 3, Repuesto ID 3 con cant 1, Repuesto ID 4 con cant 1) con sus precios unitarios historicos.
+  * Mano de obra: $50.00 y Total calculado correctamente = Mano de obra + Sumatoria(cantidad * precioUnitario).

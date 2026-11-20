@@ -1,0 +1,75 @@
+1
+1
+PRU101
+Toyota
+Yaris
+2018
+50000
+Carlos Silva
+V-18111222
+0414-1112222
+S
+1
+PRU102
+Ford
+Fiesta
+2019
+42000
+Ana Gomez
+V-19222333
+0424-2223333
+S
+1
+PRU103
+Chevrolet
+Spark
+2017
+61000
+Luis Diaz
+V-20333444
+0412-3334444
+S
+0
+2
+1
+Pedro Rojas
+V-15444555
+MOTOR
+2024-01-10
+1
+Marta Perez
+V-16555666
+FRENOS
+2024-02-15
+0
+3
+1
+P-001
+Filtro Aceite Prueba
+Bosch
+12.50
+20
+5
+1
+P-002
+Pastillas Freno Prueba
+Brembo
+35.00
+15
+4
+1
+P-003
+Bujia Iridium Prueba
+NGK
+10.00
+30
+6
+1
+P-004
+Aceite 10W40 Prueba
+Mobil
+28.00
+25
+5
+0
+0

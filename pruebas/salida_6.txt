@@ -1,0 +1,8 @@
+=== CASO DE USO 6: BAJA DE MECANICO E HISTORIAL PRESERVADO ===
+1. Intento de dar de baja al Mecanico ID 1 mientras tiene la orden #5 ABIERTA:
+   ERROR: Mecanico no encontrado, ya dado de baja o tiene ordenes ABIERTAS.
+2. Se cierra la orden #5 con mano de obra $45.00 -> Orden cerrada exitosamente.
+3. Se da de baja al Mecanico ID 1 -> Mecanico dado de baja exitosamente.
+4. Al consultar la orden cerrada #1 (del Mecanico ID 1), sigue mostrando su nombre y especialidad con indicador [BAJA].
+5. Al intentar abrir una orden nueva asignando al Mecanico ID 1:
+   ERROR: No se pudo abrir la orden.

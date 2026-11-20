@@ -1,0 +1,7 @@
+=== CASO DE USO 3 (PARTE B): ACUMULACION, RETIRO Y CIERRE ===
+- Al reabrir el programa, la orden #1 conserva sus 3 lineas previas.
+- Se agrega un 4to repuesto (ID 4, cant: 1) -> Total 4 lineas.
+- Se agregan 2 unidades adicionales del repuesto ID 1 -> Se acumula en la linea existente (cantidad pasa de 1 a 3) sin duplicar linea.
+- Se quita el repuesto ID 2 -> Se elimina la linea completa y sus 2 unidades regresan al inventario en repuestos.bin.
+- Se cierra la orden #1 con mano de obra = $50.00 en fecha 2026-11-16.
+- Se cierra el programa (opcion 0).

@@ -1,0 +1,24 @@
+6
+2
+0
+1
+1
+NEW999
+Chevrolet
+Cruze
+2020
+35000
+Cliente Temporal
+V-25999888
+0414-9998888
+S
+0
+4
+1
+9
+1
+36000
+Falla prueba integridad
+2026-11-19
+0
+0

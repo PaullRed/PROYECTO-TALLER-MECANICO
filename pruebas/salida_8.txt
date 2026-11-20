@@ -1,0 +1,8 @@
+=== CASO DE USO 8: VALIDACION DE REPORTES (SOLO ORDENES CERRADAS) ===
+- Con el dataset pre-poblado (10 ordenes: 4 CERRADAS, 3 ABIERTAS, 3 ANULADAS entre 4 mecanicos):
+1. Reporte 1 (Historial de placa AB123CD):
+   Muestra la orden #1 (CERRADA) y la orden #9 (ANULADA). El total facturado suma unicamente la orden #1 (CERRADA), excluyendo la #9 (ANULADA).
+2. Reporte 2 (Top 10 repuestos mas utilizados):
+   Contabiliza unicamente unidades consumidas en ordenes CERRADAS (#1, #2, #3, #4), ignorando las unidades de ordenes ABIERTAS (#5, #6, #7, #10) y ANULADAS (#8, #9).
+3. Reporte 3 (Facturacion por mecanico):
+   Muestra todos los mecanicos (incluyendo Pedro Socorro [BAJA] con su orden cerrada #4), sumando solo ordenes CERRADAS en cantidad de ordenes, mano de obra y repuestos.

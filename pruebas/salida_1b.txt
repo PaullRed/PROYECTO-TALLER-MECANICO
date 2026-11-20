@@ -1,0 +1,4 @@
+=== CASO DE USO 1 (PARTE B): VERIFICACION TRAS REINICIO ===
+- Al listar vehiculos activos (opcion 1 -> 5), persisten PRU101, PRU102 y PRU103 con los mismos IDs asignados en la ejecucion 1a.
+- Al listar mecanicos (opcion 2 -> 4), persisten Pedro Rojas y Marta Perez con sus IDs intactos.
+- Al listar repuestos activos (opcion 3 -> 6), persisten P-001, P-002, P-003 y P-004 con sus precios, stocks e IDs originales.

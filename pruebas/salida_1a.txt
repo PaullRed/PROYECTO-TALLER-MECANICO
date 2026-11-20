@@ -1,0 +1,5 @@
+=== CASO DE USO 1 (PARTE A): REGISTRO DE ENTIDADES ANTES DE REINICIO ===
+- Se registran 3 vehiculos nuevos (placas PRU101, PRU102, PRU103) con IDs correlativos.
+- Se registran 2 mecanicos nuevos (Pedro Rojas y Marta Perez) con IDs correlativos.
+- Se registran 4 repuestos nuevos (codigos P-001 a P-004) con IDs correlativos.
+- Se cierra el programa seleccionando opcion 0.

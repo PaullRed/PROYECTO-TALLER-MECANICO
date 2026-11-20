@@ -1,0 +1,8 @@
+=== CASO DE USO 2: ACCESO DIRECTO POR ID Y BORRADO LOGICO ===
+1. Se registran 6 vehiculos (IDs 1 a 6 sobre archivos limpios).
+2. Se elimina logicamente el vehiculo ID 3 -> Vehiculo eliminado correctamente.
+3. Busqueda por ID 5 (acceso directo):
+   [Acceso directo en offset: 1472 bytes] (16 + 4 * 364)
+   ID: 5 | Placa: CU2005 | Marca: Hyundai | Modelo: Elantra | Anio: 2020 | Kilometraje: 40000 | Propietario: Cliente Cinco
+4. Busqueda por ID 3 (eliminado logicamente):
+   El vehiculo con ID 3 fue eliminado logicamente.
